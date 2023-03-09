@@ -146,7 +146,7 @@ if selected == 'Mental Health Prediction':
         else:
             work = 4
 # Loading the saved model
-        model = pickle.load(open("/home/mr1ncr1d1ble/Downloads/model.pkl", "rb"))
+        model = pickle.load(open("model.pkl", "rb"))
 
 # Predicting the output
         input_data = [age, gender, hereditary, benefits, care, anonymous, leaves, work]
